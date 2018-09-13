@@ -1,0 +1,30 @@
+.main_table {
+    width: 825px;
+    height: 1025px;
+}
+
+.main_table td { 
+    border: 1px dotted black;
+}
+
+.div_rounded {
+    border: 1px solid black;
+    height: 25px;
+    margin-left: 125px;
+    border-radius: 20px 0;
+}
+
+.div_float {
+    float: left;
+    clear: right;
+    width: 125px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.3em;
+    padding-left: 50px;
+    padding-top: 6px;
+}
+
+.div_month {
+    margin-top: 40px;
+}
