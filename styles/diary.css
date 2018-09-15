@@ -1,3 +1,9 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+
 .main_table {
     width: 825px;
     height: 1025px;
@@ -8,23 +14,58 @@
 }
 
 .div_rounded {
-    border: 1px solid black;
+    border: 1px solid black; 
+    border-radius: 20px 0;
+}
+
+.div_one {
     height: 25px;
     margin-left: 125px;
-    border-radius: 20px 0;
+}
+
+.div_two {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 52px;
 }
 
 .div_float {
     float: left;
-    clear: right;
     width: 125px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    font-size: 1.3em;
+    
+    
     padding-left: 50px;
     padding-top: 6px;
 }
 
 .div_month {
     margin-top: 40px;
+}
+
+.font_big {
+    font-size: 1.3em;
+}
+
+#span_zd {
+    padding-left: 100px;
+  
+
+}
+
+.rotatable{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    padding-top: 60px;
+    margin-bottom: -60px;
+    font-size: 1.15em;
+}
+
+.div_line {
+    height: 120px;
+    border-right: 1px solid black;
+    margin-right: 12px;
+    margin-top: -69px;
 }
