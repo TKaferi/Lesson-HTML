@@ -9,9 +9,9 @@ body {
     height: 1025px;
 }
 
-.main_table td { 
-    border: 1px dotted black;
-}
+/*.main_table td { 
+    border: 1px dotted white;
+}*/
 
 .div_rounded {
     border: 1px solid black; 
@@ -68,4 +68,54 @@ body {
     border-right: 1px solid black;
     margin-right: 12px;
     margin-top: -69px;
+}
+
+.td_c{
+    width: 30px;
+}
+
+.td_zd{
+    width: 367px;  
+}
+
+.td_pred{
+    width: 160px;
+}
+
+.table_day
+{
+    /*border-collapse: collapse;*/
+    width: 717px;
+    height: 250px;
+    font-size: 1.15em;
+}
+
+.table_day td:not(.td_c)  { 
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+
+}
+
+
+
+.td_ul {
+    border: 1px solid black;
+    border-radius: 20px 0px 0px 0px;
+    padding-left: 10px;
+}
+
+.td_bl {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0px 0px 0px 20px;
+    padding-left: 10px;
+}
+
+.td_br {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0px 0px 0px 20px;
+    padding-left: 10px;
 }
