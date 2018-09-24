@@ -18,5 +18,11 @@ body {
     top: 0;
     height: 900px;
     width: 800px;
-    background-color: rgba(138, 133, 133, 0.5) ;
+    background-color: rgb(146, 156, 155);
+    opacity: 0.5;
+}
+.content {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
 }
