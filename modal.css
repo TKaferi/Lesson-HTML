@@ -16,7 +16,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    height: 900px;
+    height: 100%;
     width: 800px;
     background-color: rgb(146, 156, 155);
     opacity: 0.5;
