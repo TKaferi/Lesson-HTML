@@ -24,12 +24,14 @@ form {
 }
 
 input[type="text"] {
-    width: 278px;
+    width: 266px;
     height: 28px;
     margin: 8px;
     margin-right: 0;
     border: none;
-    padding: 0 0 0 5px;   
+    padding: 0 0 0 18px;   
+    background: url(image/baseline_search_black_18dp.png) no-repeat 0 50%;
+    background-color: white;
 }
 
 input[placeholder] {
