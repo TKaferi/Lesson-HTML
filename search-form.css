@@ -1,16 +1,25 @@
+body {
+    background-color: grey;  
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    padding-top: 200px;
+}
+
 .search {
     width: 380px;
     background-color: #585858;
     padding: 5px;
-    position: relative;
-    top: 250px;
-    left: 38%;
 }
 
 .search div {
     background-color: #434343;
     width: 380px;
-    
     border-radius: 5px;
 }
 
@@ -30,7 +39,6 @@ input[placeholder] {
 
 
 input[type="submit"] {
-
     width: 83px;
     height: 28px;
     color: white;
@@ -44,8 +52,3 @@ input[value] {
     font-size: 12px;
     font-weight: bold;
 }
-body {
-    background-color: grey;
-}
-
-
