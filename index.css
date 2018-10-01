@@ -1,60 +1,63 @@
 .box {
-  position: relative;
-  background-color: red;
-  height: 100px;
-  width: 100px;
-  margin: auto;
-  margin-top: 200px;
+position: relative;
+background-color: red;
+height: 100px;
+width: 100px;
+margin: auto;
+margin-top: 200px;
 }
 
 .box1 {
-  opacity: 0;
-  background-color: red;
-
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  left: -100px;
-  top: -100px;
+opacity: 0;
+background-color: red;
+height: 100px;
+width: 100px;
+position: absolute;
+left: -100px;
+top: -100px;
 }
 
 .box2 {
-  opacity: 0;
-  background-color: red;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  right: -100px;
-  top: -100px;
+opacity: 0;
+background-color: red;
+height: 100px;
+width: 100px;
+position: absolute;
+right: -100px;
+top: -100px;
 }
+
 .box3 {
-  opacity: 0;
-  background-color: red;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  right: -100px;
-  bottom: -100px;
+opacity: 0;
+background-color: red;
+height: 100px;
+width: 100px;
+position: absolute;
+right: -100px;
+bottom: -100px;
 }
 .box4 {
-  opacity: 0;
-  background-color: red;
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  left: -100px;
-  bottom: -100px;
+opacity: 0;
+background-color: red;
+height: 100px;
+width: 100px;
+position: absolute;
+left: -100px;
+bottom: -100px;
 }
 
 .box:hover .box1 {
-  opacity: 1;
+opacity: 1;
 }
+
 .box:hover .box2 {
-  opacity: 1;
+opacity: 1;
 }
+
 .box:hover .box3 {
-  opacity: 1;
+opacity: 1;
 }
+
 .box:hover .box4 {
-  opacity: 1;
+opacity: 1;
 }
